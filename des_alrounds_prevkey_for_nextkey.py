@@ -297,7 +297,7 @@ def hex_bin(txt):
     cipher_text_1 = ''.join([chars[i] for i in cipher_text_1])
     print(cipher_text_1)
 
-    # Generate round 1 result for me
+    # Generate the 16th round result for me
     R1 = Rgt[-1]
     L1 = Lft[-1]
     Ciphf = L1 + R1
