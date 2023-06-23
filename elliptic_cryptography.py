@@ -5,6 +5,7 @@ def no_prime_to(n):
     return res
 print(no_prime_to(23))
 
+# Elliptic curve for finding k; discrete logarithm
 def elliptic_crypt1(P, Q, a, mod_val):
     ls = [P, P]
     q = 1
